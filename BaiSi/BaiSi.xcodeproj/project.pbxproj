@@ -7,68 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		040C5D94210AD0AD00CE07D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 040C5D93210AD0AD00CE07D0 /* AppDelegate.m */; };
-		040C5D97210AD0AD00CE07D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040C5D96210AD0AD00CE07D0 /* ViewController.m */; };
-		040C5D9A210AD0AD00CE07D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040C5D98210AD0AD00CE07D0 /* Main.storyboard */; };
-		040C5D9C210AD0C600CE07D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040C5D9B210AD0C600CE07D0 /* Assets.xcassets */; };
-		040C5D9F210AD0C600CE07D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040C5D9D210AD0C600CE07D0 /* LaunchScreen.storyboard */; };
-		040C5DA2210AD0C600CE07D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 040C5DA1210AD0C600CE07D0 /* main.m */; };
-		040C5DAC210AD0C700CE07D0 /* BaiSiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040C5DAB210AD0C700CE07D0 /* BaiSiTests.m */; };
-		040C5DB7210AD0C700CE07D0 /* BaiSiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040C5DB6210AD0C700CE07D0 /* BaiSiUITests.m */; };
+		04FC0D20210B003B00CD2A23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC0D1F210B003B00CD2A23 /* AppDelegate.m */; };
+		04FC0D38210B004500CD2A23 /* BaiSiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC0D37210B004500CD2A23 /* BaiSiTests.m */; };
+		04FC0D43210B004500CD2A23 /* BaiSiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC0D42210B004500CD2A23 /* BaiSiUITests.m */; };
+		04FC0D6F210B030F00CD2A23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FC0D51210B030E00CD2A23 /* Assets.xcassets */; };
+		04FC0D70210B030F00CD2A23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FC0D52210B030E00CD2A23 /* LaunchScreen.storyboard */; };
+		04FC0D71210B030F00CD2A23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FC0D54210B030E00CD2A23 /* Main.storyboard */; };
+		04FC0D73210B030F00CD2A23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC0D58210B030E00CD2A23 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		040C5DA8210AD0C700CE07D0 /* PBXContainerItemProxy */ = {
+		04FC0D34210B004500CD2A23 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 040C5D87210AD0AC00CE07D0 /* Project object */;
+			containerPortal = 04FC0D13210B003B00CD2A23 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 040C5D8E210AD0AC00CE07D0;
+			remoteGlobalIDString = 04FC0D1A210B003B00CD2A23;
 			remoteInfo = BaiSi;
 		};
-		040C5DB3210AD0C700CE07D0 /* PBXContainerItemProxy */ = {
+		04FC0D3F210B004500CD2A23 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 040C5D87210AD0AC00CE07D0 /* Project object */;
+			containerPortal = 04FC0D13210B003B00CD2A23 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 040C5D8E210AD0AC00CE07D0;
+			remoteGlobalIDString = 04FC0D1A210B003B00CD2A23;
 			remoteInfo = BaiSi;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		040C5D8F210AD0AC00CE07D0 /* BaiSi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaiSi.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		040C5D92210AD0AD00CE07D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		040C5D93210AD0AD00CE07D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		040C5D95210AD0AD00CE07D0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		040C5D96210AD0AD00CE07D0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		040C5D99210AD0AD00CE07D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		040C5D9B210AD0C600CE07D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		040C5D9E210AD0C600CE07D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		040C5DA0210AD0C600CE07D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		040C5DA1210AD0C600CE07D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		040C5DA7210AD0C700CE07D0 /* BaiSiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaiSiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		040C5DAB210AD0C700CE07D0 /* BaiSiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaiSiTests.m; sourceTree = "<group>"; };
-		040C5DAD210AD0C700CE07D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		040C5DB2210AD0C700CE07D0 /* BaiSiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaiSiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		040C5DB6210AD0C700CE07D0 /* BaiSiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaiSiUITests.m; sourceTree = "<group>"; };
-		040C5DB8210AD0C700CE07D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FC0D1B210B003B00CD2A23 /* BaiSi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaiSi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04FC0D1E210B003B00CD2A23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04FC0D1F210B003B00CD2A23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04FC0D33210B004500CD2A23 /* BaiSiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaiSiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04FC0D37210B004500CD2A23 /* BaiSiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaiSiTests.m; sourceTree = "<group>"; };
+		04FC0D39210B004500CD2A23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FC0D3E210B004500CD2A23 /* BaiSiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaiSiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04FC0D42210B004500CD2A23 /* BaiSiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaiSiUITests.m; sourceTree = "<group>"; };
+		04FC0D44210B004500CD2A23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FC0D51210B030E00CD2A23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04FC0D53210B030E00CD2A23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04FC0D55210B030E00CD2A23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04FC0D57210B030E00CD2A23 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FC0D58210B030E00CD2A23 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		040C5D8C210AD0AC00CE07D0 /* Frameworks */ = {
+		04FC0D18210B003B00CD2A23 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		040C5DA4210AD0C700CE07D0 /* Frameworks */ = {
+		04FC0D30210B004500CD2A23 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		040C5DAF210AD0C700CE07D0 /* Frameworks */ = {
+		04FC0D3B210B004500CD2A23 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,70 +75,260 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		040C5D86210AD0AC00CE07D0 = {
+		04FC0D12210B003B00CD2A23 = {
 			isa = PBXGroup;
 			children = (
-				040C5D91210AD0AC00CE07D0 /* BaiSi */,
-				040C5DAA210AD0C700CE07D0 /* BaiSiTests */,
-				040C5DB5210AD0C700CE07D0 /* BaiSiUITests */,
-				040C5D90210AD0AC00CE07D0 /* Products */,
+				04FC0D1D210B003B00CD2A23 /* BaiSi */,
+				04FC0D36210B004500CD2A23 /* BaiSiTests */,
+				04FC0D41210B004500CD2A23 /* BaiSiUITests */,
+				04FC0D1C210B003B00CD2A23 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		040C5D90210AD0AC00CE07D0 /* Products */ = {
+		04FC0D1C210B003B00CD2A23 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				040C5D8F210AD0AC00CE07D0 /* BaiSi.app */,
-				040C5DA7210AD0C700CE07D0 /* BaiSiTests.xctest */,
-				040C5DB2210AD0C700CE07D0 /* BaiSiUITests.xctest */,
+				04FC0D1B210B003B00CD2A23 /* BaiSi.app */,
+				04FC0D33210B004500CD2A23 /* BaiSiTests.xctest */,
+				04FC0D3E210B004500CD2A23 /* BaiSiUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		040C5D91210AD0AC00CE07D0 /* BaiSi */ = {
+		04FC0D1D210B003B00CD2A23 /* BaiSi */ = {
 			isa = PBXGroup;
 			children = (
-				040C5D92210AD0AD00CE07D0 /* AppDelegate.h */,
-				040C5D93210AD0AD00CE07D0 /* AppDelegate.m */,
-				040C5D95210AD0AD00CE07D0 /* ViewController.h */,
-				040C5D96210AD0AD00CE07D0 /* ViewController.m */,
-				040C5D98210AD0AD00CE07D0 /* Main.storyboard */,
-				040C5D9B210AD0C600CE07D0 /* Assets.xcassets */,
-				040C5D9D210AD0C600CE07D0 /* LaunchScreen.storyboard */,
-				040C5DA0210AD0C600CE07D0 /* Info.plist */,
-				040C5DA1210AD0C600CE07D0 /* main.m */,
+				04FC0D1E210B003B00CD2A23 /* AppDelegate.h */,
+				04FC0D1F210B003B00CD2A23 /* AppDelegate.m */,
+				04FC0D59210B030E00CD2A23 /* Apps */,
+				04FC0D50210B030E00CD2A23 /* Resources */,
+				04FC0D56210B030E00CD2A23 /* Supporting Files */,
+				04FC0D6E210B030E00CD2A23 /* Third */,
 			);
 			path = BaiSi;
 			sourceTree = "<group>";
 		};
-		040C5DAA210AD0C700CE07D0 /* BaiSiTests */ = {
+		04FC0D36210B004500CD2A23 /* BaiSiTests */ = {
 			isa = PBXGroup;
 			children = (
-				040C5DAB210AD0C700CE07D0 /* BaiSiTests.m */,
-				040C5DAD210AD0C700CE07D0 /* Info.plist */,
+				04FC0D37210B004500CD2A23 /* BaiSiTests.m */,
+				04FC0D39210B004500CD2A23 /* Info.plist */,
 			);
 			path = BaiSiTests;
 			sourceTree = "<group>";
 		};
-		040C5DB5210AD0C700CE07D0 /* BaiSiUITests */ = {
+		04FC0D41210B004500CD2A23 /* BaiSiUITests */ = {
 			isa = PBXGroup;
 			children = (
-				040C5DB6210AD0C700CE07D0 /* BaiSiUITests.m */,
-				040C5DB8210AD0C700CE07D0 /* Info.plist */,
+				04FC0D42210B004500CD2A23 /* BaiSiUITests.m */,
+				04FC0D44210B004500CD2A23 /* Info.plist */,
 			);
 			path = BaiSiUITests;
+			sourceTree = "<group>";
+		};
+		04FC0D50210B030E00CD2A23 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04FC0D51210B030E00CD2A23 /* Assets.xcassets */,
+				04FC0D52210B030E00CD2A23 /* LaunchScreen.storyboard */,
+				04FC0D54210B030E00CD2A23 /* Main.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		04FC0D56210B030E00CD2A23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04FC0D57210B030E00CD2A23 /* Info.plist */,
+				04FC0D58210B030E00CD2A23 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04FC0D59210B030E00CD2A23 /* Apps */ = {
+			isa = PBXGroup;
+			children = (
+				04FC0D5A210B030E00CD2A23 /* Essense */,
+				04FC0D5E210B030E00CD2A23 /* Follow */,
+				04FC0D62210B030E00CD2A23 /* Me */,
+				04FC0D66210B030E00CD2A23 /* New */,
+				04FC0D6A210B030E00CD2A23 /* Publish */,
+			);
+			path = Apps;
+			sourceTree = "<group>";
+		};
+		04FC0D5A210B030E00CD2A23 /* Essense */ = {
+			isa = PBXGroup;
+			children = (
+				04FC0D5B210B030E00CD2A23 /* Controller */,
+				04FC0D5C210B030E00CD2A23 /* Model */,
+				04FC0D5D210B030E00CD2A23 /* View */,
+			);
+			path = Essense;
+			sourceTree = "<group>";
+		};
+		04FC0D5B210B030E00CD2A23 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04FC0D5C210B030E00CD2A23 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04FC0D5D210B030E00CD2A23 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04FC0D5E210B030E00CD2A23 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+				04FC0D5F210B030E00CD2A23 /* Controller */,
+				04FC0D60210B030E00CD2A23 /* Model */,
+				04FC0D61210B030E00CD2A23 /* View */,
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		04FC0D5F210B030E00CD2A23 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04FC0D60210B030E00CD2A23 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04FC0D61210B030E00CD2A23 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04FC0D62210B030E00CD2A23 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				04FC0D63210B030E00CD2A23 /* Controller */,
+				04FC0D64210B030E00CD2A23 /* Model */,
+				04FC0D65210B030E00CD2A23 /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		04FC0D63210B030E00CD2A23 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04FC0D64210B030E00CD2A23 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04FC0D65210B030E00CD2A23 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04FC0D66210B030E00CD2A23 /* New */ = {
+			isa = PBXGroup;
+			children = (
+				04FC0D67210B030E00CD2A23 /* Controller */,
+				04FC0D68210B030E00CD2A23 /* Model */,
+				04FC0D69210B030E00CD2A23 /* View */,
+			);
+			path = New;
+			sourceTree = "<group>";
+		};
+		04FC0D67210B030E00CD2A23 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04FC0D68210B030E00CD2A23 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04FC0D69210B030E00CD2A23 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04FC0D6A210B030E00CD2A23 /* Publish */ = {
+			isa = PBXGroup;
+			children = (
+				04FC0D6B210B030E00CD2A23 /* Controller */,
+				04FC0D6C210B030E00CD2A23 /* Model */,
+				04FC0D6D210B030E00CD2A23 /* View */,
+			);
+			path = Publish;
+			sourceTree = "<group>";
+		};
+		04FC0D6B210B030E00CD2A23 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04FC0D6C210B030E00CD2A23 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04FC0D6D210B030E00CD2A23 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04FC0D6E210B030E00CD2A23 /* Third */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Third;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		040C5D8E210AD0AC00CE07D0 /* BaiSi */ = {
+		04FC0D1A210B003B00CD2A23 /* BaiSi */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 040C5DBB210AD0C700CE07D0 /* Build configuration list for PBXNativeTarget "BaiSi" */;
+			buildConfigurationList = 04FC0D47210B004500CD2A23 /* Build configuration list for PBXNativeTarget "BaiSi" */;
 			buildPhases = (
-				040C5D8B210AD0AC00CE07D0 /* Sources */,
-				040C5D8C210AD0AC00CE07D0 /* Frameworks */,
-				040C5D8D210AD0AC00CE07D0 /* Resources */,
+				04FC0D17210B003B00CD2A23 /* Sources */,
+				04FC0D18210B003B00CD2A23 /* Frameworks */,
+				04FC0D19210B003B00CD2A23 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -149,68 +336,68 @@
 			);
 			name = BaiSi;
 			productName = BaiSi;
-			productReference = 040C5D8F210AD0AC00CE07D0 /* BaiSi.app */;
+			productReference = 04FC0D1B210B003B00CD2A23 /* BaiSi.app */;
 			productType = "com.apple.product-type.application";
 		};
-		040C5DA6210AD0C700CE07D0 /* BaiSiTests */ = {
+		04FC0D32210B004500CD2A23 /* BaiSiTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 040C5DBE210AD0C700CE07D0 /* Build configuration list for PBXNativeTarget "BaiSiTests" */;
+			buildConfigurationList = 04FC0D4A210B004500CD2A23 /* Build configuration list for PBXNativeTarget "BaiSiTests" */;
 			buildPhases = (
-				040C5DA3210AD0C700CE07D0 /* Sources */,
-				040C5DA4210AD0C700CE07D0 /* Frameworks */,
-				040C5DA5210AD0C700CE07D0 /* Resources */,
+				04FC0D2F210B004500CD2A23 /* Sources */,
+				04FC0D30210B004500CD2A23 /* Frameworks */,
+				04FC0D31210B004500CD2A23 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				040C5DA9210AD0C700CE07D0 /* PBXTargetDependency */,
+				04FC0D35210B004500CD2A23 /* PBXTargetDependency */,
 			);
 			name = BaiSiTests;
 			productName = BaiSiTests;
-			productReference = 040C5DA7210AD0C700CE07D0 /* BaiSiTests.xctest */;
+			productReference = 04FC0D33210B004500CD2A23 /* BaiSiTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		040C5DB1210AD0C700CE07D0 /* BaiSiUITests */ = {
+		04FC0D3D210B004500CD2A23 /* BaiSiUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 040C5DC1210AD0C700CE07D0 /* Build configuration list for PBXNativeTarget "BaiSiUITests" */;
+			buildConfigurationList = 04FC0D4D210B004500CD2A23 /* Build configuration list for PBXNativeTarget "BaiSiUITests" */;
 			buildPhases = (
-				040C5DAE210AD0C700CE07D0 /* Sources */,
-				040C5DAF210AD0C700CE07D0 /* Frameworks */,
-				040C5DB0210AD0C700CE07D0 /* Resources */,
+				04FC0D3A210B004500CD2A23 /* Sources */,
+				04FC0D3B210B004500CD2A23 /* Frameworks */,
+				04FC0D3C210B004500CD2A23 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				040C5DB4210AD0C700CE07D0 /* PBXTargetDependency */,
+				04FC0D40210B004500CD2A23 /* PBXTargetDependency */,
 			);
 			name = BaiSiUITests;
 			productName = BaiSiUITests;
-			productReference = 040C5DB2210AD0C700CE07D0 /* BaiSiUITests.xctest */;
+			productReference = 04FC0D3E210B004500CD2A23 /* BaiSiUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		040C5D87210AD0AC00CE07D0 /* Project object */ = {
+		04FC0D13210B003B00CD2A23 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = jack;
 				TargetAttributes = {
-					040C5D8E210AD0AC00CE07D0 = {
+					04FC0D1A210B003B00CD2A23 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
-					040C5DA6210AD0C700CE07D0 = {
+					04FC0D32210B004500CD2A23 = {
 						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = 040C5D8E210AD0AC00CE07D0;
+						TestTargetID = 04FC0D1A210B003B00CD2A23;
 					};
-					040C5DB1210AD0C700CE07D0 = {
+					04FC0D3D210B004500CD2A23 = {
 						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = 040C5D8E210AD0AC00CE07D0;
+						TestTargetID = 04FC0D1A210B003B00CD2A23;
 					};
 				};
 			};
-			buildConfigurationList = 040C5D8A210AD0AC00CE07D0 /* Build configuration list for PBXProject "BaiSi" */;
+			buildConfigurationList = 04FC0D16210B003B00CD2A23 /* Build configuration list for PBXProject "BaiSi" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -218,37 +405,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 040C5D86210AD0AC00CE07D0;
-			productRefGroup = 040C5D90210AD0AC00CE07D0 /* Products */;
+			mainGroup = 04FC0D12210B003B00CD2A23;
+			productRefGroup = 04FC0D1C210B003B00CD2A23 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				040C5D8E210AD0AC00CE07D0 /* BaiSi */,
-				040C5DA6210AD0C700CE07D0 /* BaiSiTests */,
-				040C5DB1210AD0C700CE07D0 /* BaiSiUITests */,
+				04FC0D1A210B003B00CD2A23 /* BaiSi */,
+				04FC0D32210B004500CD2A23 /* BaiSiTests */,
+				04FC0D3D210B004500CD2A23 /* BaiSiUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		040C5D8D210AD0AC00CE07D0 /* Resources */ = {
+		04FC0D19210B003B00CD2A23 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				040C5D9F210AD0C600CE07D0 /* LaunchScreen.storyboard in Resources */,
-				040C5D9C210AD0C600CE07D0 /* Assets.xcassets in Resources */,
-				040C5D9A210AD0AD00CE07D0 /* Main.storyboard in Resources */,
+				04FC0D6F210B030F00CD2A23 /* Assets.xcassets in Resources */,
+				04FC0D71210B030F00CD2A23 /* Main.storyboard in Resources */,
+				04FC0D70210B030F00CD2A23 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		040C5DA5210AD0C700CE07D0 /* Resources */ = {
+		04FC0D31210B004500CD2A23 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		040C5DB0210AD0C700CE07D0 /* Resources */ = {
+		04FC0D3C210B004500CD2A23 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,68 +445,67 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		040C5D8B210AD0AC00CE07D0 /* Sources */ = {
+		04FC0D17210B003B00CD2A23 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				040C5D97210AD0AD00CE07D0 /* ViewController.m in Sources */,
-				040C5DA2210AD0C600CE07D0 /* main.m in Sources */,
-				040C5D94210AD0AD00CE07D0 /* AppDelegate.m in Sources */,
+				04FC0D73210B030F00CD2A23 /* main.m in Sources */,
+				04FC0D20210B003B00CD2A23 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		040C5DA3210AD0C700CE07D0 /* Sources */ = {
+		04FC0D2F210B004500CD2A23 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				040C5DAC210AD0C700CE07D0 /* BaiSiTests.m in Sources */,
+				04FC0D38210B004500CD2A23 /* BaiSiTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		040C5DAE210AD0C700CE07D0 /* Sources */ = {
+		04FC0D3A210B004500CD2A23 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				040C5DB7210AD0C700CE07D0 /* BaiSiUITests.m in Sources */,
+				04FC0D43210B004500CD2A23 /* BaiSiUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		040C5DA9210AD0C700CE07D0 /* PBXTargetDependency */ = {
+		04FC0D35210B004500CD2A23 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 040C5D8E210AD0AC00CE07D0 /* BaiSi */;
-			targetProxy = 040C5DA8210AD0C700CE07D0 /* PBXContainerItemProxy */;
+			target = 04FC0D1A210B003B00CD2A23 /* BaiSi */;
+			targetProxy = 04FC0D34210B004500CD2A23 /* PBXContainerItemProxy */;
 		};
-		040C5DB4210AD0C700CE07D0 /* PBXTargetDependency */ = {
+		04FC0D40210B004500CD2A23 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 040C5D8E210AD0AC00CE07D0 /* BaiSi */;
-			targetProxy = 040C5DB3210AD0C700CE07D0 /* PBXContainerItemProxy */;
+			target = 04FC0D1A210B003B00CD2A23 /* BaiSi */;
+			targetProxy = 04FC0D3F210B004500CD2A23 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		040C5D98210AD0AD00CE07D0 /* Main.storyboard */ = {
+		04FC0D52210B030E00CD2A23 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				040C5D99210AD0AD00CE07D0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		040C5D9D210AD0C600CE07D0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				040C5D9E210AD0C600CE07D0 /* Base */,
+				04FC0D53210B030E00CD2A23 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		04FC0D54210B030E00CD2A23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04FC0D55210B030E00CD2A23 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		040C5DB9210AD0C700CE07D0 /* Debug */ = {
+		04FC0D45210B004500CD2A23 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -377,7 +563,7 @@
 			};
 			name = Debug;
 		};
-		040C5DBA210AD0C700CE07D0 /* Release */ = {
+		04FC0D46210B004500CD2A23 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -429,41 +615,43 @@
 			};
 			name = Release;
 		};
-		040C5DBC210AD0C700CE07D0 /* Debug */ = {
+		04FC0D48210B004500CD2A23 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = BaiSi/Info.plist;
+				DEVELOPMENT_TEAM = 4ZFVDL43ZL;
+				INFOPLIST_FILE = "$(SRCROOT)/BaiSi/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.BaiSi.BaiSi;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BaiSiBuDeJie.BaiSi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		040C5DBD210AD0C700CE07D0 /* Release */ = {
+		04FC0D49210B004500CD2A23 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = BaiSi/Info.plist;
+				DEVELOPMENT_TEAM = 4ZFVDL43ZL;
+				INFOPLIST_FILE = "$(SRCROOT)/BaiSi/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.BaiSi.BaiSi;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BaiSiBuDeJie.BaiSi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
-		040C5DBF210AD0C700CE07D0 /* Debug */ = {
+		04FC0D4B210B004500CD2A23 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -474,14 +662,14 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.BaiSi.BaiSiTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BaiSiBuDeJie.BaiSiTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaiSi.app/BaiSi";
 			};
 			name = Debug;
 		};
-		040C5DC0210AD0C700CE07D0 /* Release */ = {
+		04FC0D4C210B004500CD2A23 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,14 +680,14 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.BaiSi.BaiSiTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BaiSiBuDeJie.BaiSiTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaiSi.app/BaiSi";
 			};
 			name = Release;
 		};
-		040C5DC2210AD0C700CE07D0 /* Debug */ = {
+		04FC0D4E210B004500CD2A23 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -509,14 +697,14 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.BaiSi.BaiSiUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BaiSiBuDeJie.BaiSiUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = BaiSi;
 			};
 			name = Debug;
 		};
-		040C5DC3210AD0C700CE07D0 /* Release */ = {
+		04FC0D4F210B004500CD2A23 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -526,7 +714,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.BaiSi.BaiSiUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BaiSiBuDeJie.BaiSiUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = BaiSi;
@@ -536,43 +724,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		040C5D8A210AD0AC00CE07D0 /* Build configuration list for PBXProject "BaiSi" */ = {
+		04FC0D16210B003B00CD2A23 /* Build configuration list for PBXProject "BaiSi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				040C5DB9210AD0C700CE07D0 /* Debug */,
-				040C5DBA210AD0C700CE07D0 /* Release */,
+				04FC0D45210B004500CD2A23 /* Debug */,
+				04FC0D46210B004500CD2A23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		040C5DBB210AD0C700CE07D0 /* Build configuration list for PBXNativeTarget "BaiSi" */ = {
+		04FC0D47210B004500CD2A23 /* Build configuration list for PBXNativeTarget "BaiSi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				040C5DBC210AD0C700CE07D0 /* Debug */,
-				040C5DBD210AD0C700CE07D0 /* Release */,
+				04FC0D48210B004500CD2A23 /* Debug */,
+				04FC0D49210B004500CD2A23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		040C5DBE210AD0C700CE07D0 /* Build configuration list for PBXNativeTarget "BaiSiTests" */ = {
+		04FC0D4A210B004500CD2A23 /* Build configuration list for PBXNativeTarget "BaiSiTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				040C5DBF210AD0C700CE07D0 /* Debug */,
-				040C5DC0210AD0C700CE07D0 /* Release */,
+				04FC0D4B210B004500CD2A23 /* Debug */,
+				04FC0D4C210B004500CD2A23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		040C5DC1210AD0C700CE07D0 /* Build configuration list for PBXNativeTarget "BaiSiUITests" */ = {
+		04FC0D4D210B004500CD2A23 /* Build configuration list for PBXNativeTarget "BaiSiUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				040C5DC2210AD0C700CE07D0 /* Debug */,
-				040C5DC3210AD0C700CE07D0 /* Release */,
+				04FC0D4E210B004500CD2A23 /* Debug */,
+				04FC0D4F210B004500CD2A23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 040C5D87210AD0AC00CE07D0 /* Project object */;
+	rootObject = 04FC0D13210B003B00CD2A23 /* Project object */;
 }
