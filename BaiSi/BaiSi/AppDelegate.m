@@ -7,6 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "LZEssenceViewController.h"
+#import "LZMeViewController.h"
+#import "LZNewViewController.h"
+#import "LZFollowViewController.h"
+#import "LZFollowViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +21,21 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    UITabBarController *tab = [[UITabBarController alloc] init];
+    
+    LZEssenceViewController *essenceVC = [[LZEssenceViewController alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:essenceVC];
+    [tab addChildViewController:nav];
+    
+    
+    
+    self.window.rootViewController = tab;
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

@@ -12,8 +12,12 @@
 		04FC0D43210B004500CD2A23 /* BaiSiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC0D42210B004500CD2A23 /* BaiSiUITests.m */; };
 		04FC0D6F210B030F00CD2A23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FC0D51210B030E00CD2A23 /* Assets.xcassets */; };
 		04FC0D70210B030F00CD2A23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FC0D52210B030E00CD2A23 /* LaunchScreen.storyboard */; };
-		04FC0D71210B030F00CD2A23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FC0D54210B030E00CD2A23 /* Main.storyboard */; };
 		04FC0D73210B030F00CD2A23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC0D58210B030E00CD2A23 /* main.m */; };
+		04FC0D76210B08A300CD2A23 /* LZEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC0D75210B08A300CD2A23 /* LZEssenceViewController.m */; };
+		04FC0D79210B08B600CD2A23 /* LZFollowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC0D78210B08B600CD2A23 /* LZFollowViewController.m */; };
+		04FC0D7C210B08C300CD2A23 /* LZMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC0D7B210B08C300CD2A23 /* LZMeViewController.m */; };
+		04FC0D7F210B08D100CD2A23 /* LZNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC0D7E210B08D100CD2A23 /* LZNewViewController.m */; };
+		04FC0D82210B08E400CD2A23 /* LZPublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC0D81210B08E400CD2A23 /* LZPublishViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,9 +49,18 @@
 		04FC0D44210B004500CD2A23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04FC0D51210B030E00CD2A23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04FC0D53210B030E00CD2A23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		04FC0D55210B030E00CD2A23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04FC0D57210B030E00CD2A23 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04FC0D58210B030E00CD2A23 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04FC0D74210B08A300CD2A23 /* LZEssenceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZEssenceViewController.h; sourceTree = "<group>"; };
+		04FC0D75210B08A300CD2A23 /* LZEssenceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZEssenceViewController.m; sourceTree = "<group>"; };
+		04FC0D77210B08B600CD2A23 /* LZFollowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZFollowViewController.h; sourceTree = "<group>"; };
+		04FC0D78210B08B600CD2A23 /* LZFollowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZFollowViewController.m; sourceTree = "<group>"; };
+		04FC0D7A210B08C300CD2A23 /* LZMeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZMeViewController.h; sourceTree = "<group>"; };
+		04FC0D7B210B08C300CD2A23 /* LZMeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZMeViewController.m; sourceTree = "<group>"; };
+		04FC0D7D210B08D100CD2A23 /* LZNewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZNewViewController.h; sourceTree = "<group>"; };
+		04FC0D7E210B08D100CD2A23 /* LZNewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZNewViewController.m; sourceTree = "<group>"; };
+		04FC0D80210B08E400CD2A23 /* LZPublishViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZPublishViewController.h; sourceTree = "<group>"; };
+		04FC0D81210B08E400CD2A23 /* LZPublishViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZPublishViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,7 +144,6 @@
 			children = (
 				04FC0D51210B030E00CD2A23 /* Assets.xcassets */,
 				04FC0D52210B030E00CD2A23 /* LaunchScreen.storyboard */,
-				04FC0D54210B030E00CD2A23 /* Main.storyboard */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -170,6 +182,8 @@
 		04FC0D5B210B030E00CD2A23 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				04FC0D74210B08A300CD2A23 /* LZEssenceViewController.h */,
+				04FC0D75210B08A300CD2A23 /* LZEssenceViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -201,6 +215,8 @@
 		04FC0D5F210B030E00CD2A23 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				04FC0D77210B08B600CD2A23 /* LZFollowViewController.h */,
+				04FC0D78210B08B600CD2A23 /* LZFollowViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -232,6 +248,8 @@
 		04FC0D63210B030E00CD2A23 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				04FC0D7A210B08C300CD2A23 /* LZMeViewController.h */,
+				04FC0D7B210B08C300CD2A23 /* LZMeViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -263,6 +281,8 @@
 		04FC0D67210B030E00CD2A23 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				04FC0D7D210B08D100CD2A23 /* LZNewViewController.h */,
+				04FC0D7E210B08D100CD2A23 /* LZNewViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -294,6 +314,8 @@
 		04FC0D6B210B030E00CD2A23 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				04FC0D80210B08E400CD2A23 /* LZPublishViewController.h */,
+				04FC0D81210B08E400CD2A23 /* LZPublishViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -381,6 +403,7 @@
 		04FC0D13210B003B00CD2A23 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LZ;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = jack;
 				TargetAttributes = {
@@ -423,7 +446,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				04FC0D6F210B030F00CD2A23 /* Assets.xcassets in Resources */,
-				04FC0D71210B030F00CD2A23 /* Main.storyboard in Resources */,
 				04FC0D70210B030F00CD2A23 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -449,8 +471,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04FC0D82210B08E400CD2A23 /* LZPublishViewController.m in Sources */,
 				04FC0D73210B030F00CD2A23 /* main.m in Sources */,
+				04FC0D7C210B08C300CD2A23 /* LZMeViewController.m in Sources */,
+				04FC0D76210B08A300CD2A23 /* LZEssenceViewController.m in Sources */,
 				04FC0D20210B003B00CD2A23 /* AppDelegate.m in Sources */,
+				04FC0D79210B08B600CD2A23 /* LZFollowViewController.m in Sources */,
+				04FC0D7F210B08D100CD2A23 /* LZNewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,14 +519,6 @@
 				04FC0D53210B030E00CD2A23 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		04FC0D54210B030E00CD2A23 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04FC0D55210B030E00CD2A23 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
