@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04364F80210EA49C00D9F6CF /* LZTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04364F7F210EA49C00D9F6CF /* LZTabBarController.m */; };
 		04FC0D20210B003B00CD2A23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC0D1F210B003B00CD2A23 /* AppDelegate.m */; };
 		04FC0D38210B004500CD2A23 /* BaiSiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC0D37210B004500CD2A23 /* BaiSiTests.m */; };
 		04FC0D43210B004500CD2A23 /* BaiSiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC0D42210B004500CD2A23 /* BaiSiUITests.m */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04364F7E210EA49C00D9F6CF /* LZTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZTabBarController.h; sourceTree = "<group>"; };
+		04364F7F210EA49C00D9F6CF /* LZTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZTabBarController.m; sourceTree = "<group>"; };
 		04FC0D1B210B003B00CD2A23 /* BaiSi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaiSi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FC0D1E210B003B00CD2A23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04FC0D1F210B003B00CD2A23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -88,6 +91,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04364F7B210EA44B00D9F6CF /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				04364F7C210EA44B00D9F6CF /* Controller */,
+				04364F7D210EA44B00D9F6CF /* View */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		04364F7C210EA44B00D9F6CF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04364F7E210EA49C00D9F6CF /* LZTabBarController.h */,
+				04364F7F210EA49C00D9F6CF /* LZTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04364F7D210EA44B00D9F6CF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		04FC0D12210B003B00CD2A23 = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +188,7 @@
 		04FC0D59210B030E00CD2A23 /* Apps */ = {
 			isa = PBXGroup;
 			children = (
+				04364F7B210EA44B00D9F6CF /* Common */,
 				04FC0D5A210B030E00CD2A23 /* Essense */,
 				04FC0D5E210B030E00CD2A23 /* Follow */,
 				04FC0D62210B030E00CD2A23 /* Me */,
@@ -476,6 +505,7 @@
 				04FC0D7C210B08C300CD2A23 /* LZMeViewController.m in Sources */,
 				04FC0D76210B08A300CD2A23 /* LZEssenceViewController.m in Sources */,
 				04FC0D20210B003B00CD2A23 /* AppDelegate.m in Sources */,
+				04364F80210EA49C00D9F6CF /* LZTabBarController.m in Sources */,
 				04FC0D79210B08B600CD2A23 /* LZFollowViewController.m in Sources */,
 				04FC0D7F210B08D100CD2A23 /* LZNewViewController.m in Sources */,
 			);

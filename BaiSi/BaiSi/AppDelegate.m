@@ -7,11 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "LZEssenceViewController.h"
-#import "LZMeViewController.h"
-#import "LZNewViewController.h"
-#import "LZFollowViewController.h"
-#import "LZFollowViewController.h"
+#import "LZTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -24,13 +20,7 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
-    UITabBarController *tab = [[UITabBarController alloc] init];
-    
-    LZEssenceViewController *essenceVC = [[LZEssenceViewController alloc] init];
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:essenceVC];
-    [tab addChildViewController:nav];
-    
-    
+    LZTabBarController *tab = [[LZTabBarController alloc] init];
     
     self.window.rootViewController = tab;
     
@@ -65,6 +55,5 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
-
 
 @end
