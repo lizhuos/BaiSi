@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0404C2F3210F183300CB4B0C /* UIView+LZView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0404C2F2210F183300CB4B0C /* UIView+LZView.m */; };
 		04364F80210EA49C00D9F6CF /* LZTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04364F7F210EA49C00D9F6CF /* LZTabBarController.m */; };
+		04364F83210EDBBA00D9F6CF /* LZTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 04364F82210EDBBA00D9F6CF /* LZTabBar.m */; };
 		04FC0D20210B003B00CD2A23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC0D1F210B003B00CD2A23 /* AppDelegate.m */; };
 		04FC0D38210B004500CD2A23 /* BaiSiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC0D37210B004500CD2A23 /* BaiSiTests.m */; };
 		04FC0D43210B004500CD2A23 /* BaiSiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC0D42210B004500CD2A23 /* BaiSiUITests.m */; };
@@ -39,8 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0404C2F1210F183300CB4B0C /* UIView+LZView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+LZView.h"; sourceTree = "<group>"; };
+		0404C2F2210F183300CB4B0C /* UIView+LZView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+LZView.m"; sourceTree = "<group>"; };
 		04364F7E210EA49C00D9F6CF /* LZTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZTabBarController.h; sourceTree = "<group>"; };
 		04364F7F210EA49C00D9F6CF /* LZTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZTabBarController.m; sourceTree = "<group>"; };
+		04364F81210EDBBA00D9F6CF /* LZTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZTabBar.h; sourceTree = "<group>"; };
+		04364F82210EDBBA00D9F6CF /* LZTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZTabBar.m; sourceTree = "<group>"; };
 		04FC0D1B210B003B00CD2A23 /* BaiSi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaiSi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FC0D1E210B003B00CD2A23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04FC0D1F210B003B00CD2A23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -91,6 +97,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0404C2F0210F164900CB4B0C /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				0404C2F1210F183300CB4B0C /* UIView+LZView.h */,
+				0404C2F2210F183300CB4B0C /* UIView+LZView.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		04364F7B210EA44B00D9F6CF /* Common */ = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +127,8 @@
 		04364F7D210EA44B00D9F6CF /* View */ = {
 			isa = PBXGroup;
 			children = (
+				04364F81210EDBBA00D9F6CF /* LZTabBar.h */,
+				04364F82210EDBBA00D9F6CF /* LZTabBar.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -366,6 +383,7 @@
 		04FC0D6E210B030E00CD2A23 /* Third */ = {
 			isa = PBXGroup;
 			children = (
+				0404C2F0210F164900CB4B0C /* Category */,
 			);
 			path = Third;
 			sourceTree = "<group>";
@@ -504,8 +522,10 @@
 				04FC0D73210B030F00CD2A23 /* main.m in Sources */,
 				04FC0D7C210B08C300CD2A23 /* LZMeViewController.m in Sources */,
 				04FC0D76210B08A300CD2A23 /* LZEssenceViewController.m in Sources */,
+				04364F83210EDBBA00D9F6CF /* LZTabBar.m in Sources */,
 				04FC0D20210B003B00CD2A23 /* AppDelegate.m in Sources */,
 				04364F80210EA49C00D9F6CF /* LZTabBarController.m in Sources */,
+				0404C2F3210F183300CB4B0C /* UIView+LZView.m in Sources */,
 				04FC0D79210B08B600CD2A23 /* LZFollowViewController.m in Sources */,
 				04FC0D7F210B08D100CD2A23 /* LZNewViewController.m in Sources */,
 			);

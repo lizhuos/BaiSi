@@ -12,6 +12,7 @@
 #import "LZNewViewController.h"
 #import "LZFollowViewController.h"
 #import "LZPublishViewController.h"
+#import "LZTabBar.h"
 
 @interface LZTabBarController ()
 
@@ -33,51 +34,52 @@
     
     // 设置字体尺寸:只有设置正常状态下,才会有效果
     NSMutableDictionary *attrsNor = [NSMutableDictionary dictionary];
-    attrsNor[NSFontAttributeName] = [UIFont systemFontOfSize:13];
+    attrsNor[NSFontAttributeName] = [UIFont systemFontOfSize:10];
     [item setTitleTextAttributes:attrsNor forState:UIControlStateNormal];
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    // 设置子控制器
+    [self setupViewController];
+    
+    // 自定义tabBar
+    [self setupTabBar];
+}
+
+- (void)setupViewController {
     LZEssenceViewController *essenceVC = [[LZEssenceViewController alloc] init];
+    [self setupTabBarItem:essenceVC tabBarItemTitle:@"精华" imageName:@"tabBar_essence_icon" selectedImage:@"tabBar_essence_click_icon"];
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:essenceVC];
     [self addChildViewController:nav];
     
     LZNewViewController *newVC = [[LZNewViewController alloc] init];
+    [self setupTabBarItem:newVC tabBarItemTitle:@"新帖" imageName:@"tabBar_new_icon" selectedImage:@"tabBar_new_click_icon"];
     UINavigationController *nav1 = [[UINavigationController alloc] initWithRootViewController:newVC];
     [self addChildViewController:nav1];
     
-    LZPublishViewController *publishVC = [[LZPublishViewController alloc] init];
-    [self addChildViewController:publishVC];
-    
     LZFollowViewController *followVC = [[LZFollowViewController alloc] init];
+    [self setupTabBarItem:followVC tabBarItemTitle:@"关注" imageName:@"tabBar_friendTrends_icon" selectedImage:@"tabBar_friendTrends_click_icon"];
     UINavigationController *nav2 = [[UINavigationController alloc] initWithRootViewController:followVC];
     [self addChildViewController:nav2];
     
     LZMeViewController *meVC = [[LZMeViewController alloc] init];
+    [self setupTabBarItem:meVC tabBarItemTitle:@"我" imageName:@"tabBar_me_icon" selectedImage:@"tabBar_me_click_icon"];
     UINavigationController *nav3 = [[UINavigationController alloc] initWithRootViewController:meVC];
     [self addChildViewController:nav3];
+}
+
+- (void)setupTabBarItem:(UIViewController *)viewController tabBarItemTitle:(NSString *)tabBarItemTitle imageName:(NSString *)imageName selectedImage:(NSString *)selectedImage {
     
-    essenceVC.tabBarItem.title = @"精华";
-    essenceVC.tabBarItem.image = [UIImage imageNamed:@"tabBar_essence_icon"];
-    essenceVC.tabBarItem.selectedImage = [UIImage imageNamed:@"tabBar_essence_click_icon"];
-    
-    newVC.tabBarItem.title = @"新帖";
-    newVC.tabBarItem.image = [UIImage imageNamed:@"tabBar_new_icon"];
-    newVC.tabBarItem.selectedImage = [UIImage imageNamed:@"tabBar_new_click_icon"];
-    
-    publishVC.tabBarItem.image = [UIImage imageNamed:@"tabBar_publish_icon"];
-    publishVC.tabBarItem.selectedImage = [UIImage imageNamed:@"tabBar_publish_click_icon"];
-    publishVC.tabBarItem.imageInsets = UIEdgeInsetsMake(6, 0, -6, 0);
-    
-    followVC.tabBarItem.title = @"关注";
-    followVC.tabBarItem.image = [UIImage imageNamed:@"tabBar_friendTrends_icon"];
-    followVC.tabBarItem.selectedImage = [UIImage imageNamed:@"tabBar_friendTrends_click_icon"];
-    
-    meVC.tabBarItem.title = @"我";
-    meVC.tabBarItem.image = [UIImage imageNamed:@"tabBar_me_icon"];
-    meVC.tabBarItem.selectedImage = [UIImage imageNamed:@"tabBar_me_click_icon"];
+    viewController.tabBarItem.title = tabBarItemTitle;
+    viewController.tabBarItem.image = [UIImage imageNamed:imageName];
+    viewController.tabBarItem.selectedImage = [UIImage imageNamed:selectedImage];
+}
+
+- (void)setupTabBar {
+    LZTabBar *tabBar = [[LZTabBar alloc] init];
+    [self setValue:tabBar forKeyPath:@"tabBar"];
 }
 
 @end
