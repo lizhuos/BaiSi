@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0404C2F3210F183300CB4B0C /* UIView+LZView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0404C2F2210F183300CB4B0C /* UIView+LZView.m */; };
 		04364F80210EA49C00D9F6CF /* LZTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04364F7F210EA49C00D9F6CF /* LZTabBarController.m */; };
 		04364F83210EDBBA00D9F6CF /* LZTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 04364F82210EDBBA00D9F6CF /* LZTabBar.m */; };
+		045823C5210FF6F900486383 /* UIView+LZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 045823C4210FF6F900486383 /* UIView+LZExtension.m */; };
 		04FC0D20210B003B00CD2A23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC0D1F210B003B00CD2A23 /* AppDelegate.m */; };
 		04FC0D38210B004500CD2A23 /* BaiSiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC0D37210B004500CD2A23 /* BaiSiTests.m */; };
 		04FC0D43210B004500CD2A23 /* BaiSiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC0D42210B004500CD2A23 /* BaiSiUITests.m */; };
@@ -41,12 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0404C2F1210F183300CB4B0C /* UIView+LZView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+LZView.h"; sourceTree = "<group>"; };
-		0404C2F2210F183300CB4B0C /* UIView+LZView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+LZView.m"; sourceTree = "<group>"; };
+		04334330211156B7009511DE /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		04364F7E210EA49C00D9F6CF /* LZTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZTabBarController.h; sourceTree = "<group>"; };
 		04364F7F210EA49C00D9F6CF /* LZTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZTabBarController.m; sourceTree = "<group>"; };
 		04364F81210EDBBA00D9F6CF /* LZTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZTabBar.h; sourceTree = "<group>"; };
 		04364F82210EDBBA00D9F6CF /* LZTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZTabBar.m; sourceTree = "<group>"; };
+		045823C3210FF6F900486383 /* UIView+LZExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+LZExtension.h"; sourceTree = "<group>"; };
+		045823C4210FF6F900486383 /* UIView+LZExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+LZExtension.m"; sourceTree = "<group>"; };
 		04FC0D1B210B003B00CD2A23 /* BaiSi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaiSi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FC0D1E210B003B00CD2A23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04FC0D1F210B003B00CD2A23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -100,8 +101,8 @@
 		0404C2F0210F164900CB4B0C /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				0404C2F1210F183300CB4B0C /* UIView+LZView.h */,
-				0404C2F2210F183300CB4B0C /* UIView+LZView.m */,
+				045823C3210FF6F900486383 /* UIView+LZExtension.h */,
+				045823C4210FF6F900486383 /* UIView+LZExtension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -189,6 +190,7 @@
 			children = (
 				04FC0D51210B030E00CD2A23 /* Assets.xcassets */,
 				04FC0D52210B030E00CD2A23 /* LaunchScreen.storyboard */,
+				04334330211156B7009511DE /* PrefixHeader.pch */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -518,6 +520,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				045823C5210FF6F900486383 /* UIView+LZExtension.m in Sources */,
 				04FC0D82210B08E400CD2A23 /* LZPublishViewController.m in Sources */,
 				04FC0D73210B030F00CD2A23 /* main.m in Sources */,
 				04FC0D7C210B08C300CD2A23 /* LZMeViewController.m in Sources */,
@@ -525,7 +528,6 @@
 				04364F83210EDBBA00D9F6CF /* LZTabBar.m in Sources */,
 				04FC0D20210B003B00CD2A23 /* AppDelegate.m in Sources */,
 				04364F80210EA49C00D9F6CF /* LZTabBarController.m in Sources */,
-				0404C2F3210F183300CB4B0C /* UIView+LZView.m in Sources */,
 				04FC0D79210B08B600CD2A23 /* LZFollowViewController.m in Sources */,
 				04FC0D7F210B08D100CD2A23 /* LZNewViewController.m in Sources */,
 			);
@@ -690,6 +692,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4ZFVDL43ZL;
+				GCC_PREFIX_HEADER = BaiSi/Resources/PrefixHeader.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/BaiSi/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -708,6 +711,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4ZFVDL43ZL;
+				GCC_PREFIX_HEADER = BaiSi/Resources/PrefixHeader.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/BaiSi/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (

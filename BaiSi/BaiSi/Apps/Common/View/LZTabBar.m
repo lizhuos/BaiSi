@@ -31,7 +31,7 @@
 
 - (void)layoutSubviews {
     [super layoutSubviews];
-    
+
     NSUInteger count = self.items.count + 1;
     NSUInteger index = 0;
     CGFloat buttonWidth = self.bounds.size.width / count;
