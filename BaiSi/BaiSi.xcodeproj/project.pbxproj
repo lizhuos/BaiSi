@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043343332111847A009511DE /* LZAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 043343322111847A009511DE /* LZAlertView.m */; };
+		04343A3021192A2C0097752E /* LZNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04343A2F21192A2C0097752E /* LZNavigationController.m */; };
 		04364F80210EA49C00D9F6CF /* LZTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04364F7F210EA49C00D9F6CF /* LZTabBarController.m */; };
 		04364F83210EDBBA00D9F6CF /* LZTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 04364F82210EDBBA00D9F6CF /* LZTabBar.m */; };
 		045823C5210FF6F900486383 /* UIView+LZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 045823C4210FF6F900486383 /* UIView+LZExtension.m */; };
@@ -42,6 +44,10 @@
 
 /* Begin PBXFileReference section */
 		04334330211156B7009511DE /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		043343312111847A009511DE /* LZAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZAlertView.h; sourceTree = "<group>"; };
+		043343322111847A009511DE /* LZAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZAlertView.m; sourceTree = "<group>"; };
+		04343A2E21192A2C0097752E /* LZNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZNavigationController.h; sourceTree = "<group>"; };
+		04343A2F21192A2C0097752E /* LZNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZNavigationController.m; sourceTree = "<group>"; };
 		04364F7E210EA49C00D9F6CF /* LZTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZTabBarController.h; sourceTree = "<group>"; };
 		04364F7F210EA49C00D9F6CF /* LZTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZTabBarController.m; sourceTree = "<group>"; };
 		04364F81210EDBBA00D9F6CF /* LZTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZTabBar.h; sourceTree = "<group>"; };
@@ -121,6 +127,8 @@
 			children = (
 				04364F7E210EA49C00D9F6CF /* LZTabBarController.h */,
 				04364F7F210EA49C00D9F6CF /* LZTabBarController.m */,
+				04343A2E21192A2C0097752E /* LZNavigationController.h */,
+				04343A2F21192A2C0097752E /* LZNavigationController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -130,6 +138,8 @@
 			children = (
 				04364F81210EDBBA00D9F6CF /* LZTabBar.h */,
 				04364F82210EDBBA00D9F6CF /* LZTabBar.m */,
+				043343312111847A009511DE /* LZAlertView.h */,
+				043343322111847A009511DE /* LZAlertView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -525,8 +535,10 @@
 				04FC0D73210B030F00CD2A23 /* main.m in Sources */,
 				04FC0D7C210B08C300CD2A23 /* LZMeViewController.m in Sources */,
 				04FC0D76210B08A300CD2A23 /* LZEssenceViewController.m in Sources */,
+				04343A3021192A2C0097752E /* LZNavigationController.m in Sources */,
 				04364F83210EDBBA00D9F6CF /* LZTabBar.m in Sources */,
 				04FC0D20210B003B00CD2A23 /* AppDelegate.m in Sources */,
+				043343332111847A009511DE /* LZAlertView.m in Sources */,
 				04364F80210EA49C00D9F6CF /* LZTabBarController.m in Sources */,
 				04FC0D79210B08B600CD2A23 /* LZFollowViewController.m in Sources */,
 				04FC0D7F210B08D100CD2A23 /* LZNewViewController.m in Sources */,
