@@ -7,8 +7,11 @@
 //
 
 #import "LZEssenceViewController.h"
+#import "UIBarButtonItem+LZExtension.h"
 
 @interface LZEssenceViewController ()
+
+
 
 @end
 
@@ -18,15 +21,20 @@
     [super viewDidLoad];
     
     self.view.backgroundColor = [UIColor whiteColor];
-    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
-    button.titleLabel.text = @"弹框测试";
-    [button setBackgroundColor:[UIColor redColor]];
-    button.frame = CGRectMake(200, 100, 100, 30);
-    [button addTarget:self action:@selector(clickAlertButton) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:button];
+    [self setupNaviBarButton];
 }
 
-- (void)clickAlertButton {
+#pragma mark - Navigation BarButtonItem
+- (void)setupNaviBarButton {
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImage:@"nav_item_game_icon" highImage:@"nav_item_game_click_icon" addTarget:self action:@selector(clickLeftBarButton)];
+    self.navigationItem.rightBarButtonItem = [UIBarButtonItem itemWithImage:@"navigationButtonRandom" highImage:@"navigationButtonRandomClick" addTarget:self action:@selector(clickRightBarButton)];
+}
+
+- (void)clickLeftBarButton {
+    NSLog(@"%s", __FUNCTION__);
+}
+
+- (void)clickRightBarButton {
     NSLog(@"%s", __FUNCTION__);
 }
 
