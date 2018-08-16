@@ -22,11 +22,16 @@
         [button setImage:[UIImage imageNamed:@"tabBar_publish_icon"] forState:UIControlStateNormal];
         [button setImage:[UIImage imageNamed:@"tabBar_publish_click_icon"] forState:UIControlStateHighlighted];
         [button sizeToFit];
+        [button addTarget:self action:@selector(clickButton) forControlEvents:UIControlEventTouchUpInside];
         
         [self addSubview:button];
         _publishButton = button;
     }
     return _publishButton;
+}
+
+- (void)clickButton {
+    NSLog(@"%s", __FUNCTION__);
 }
 
 - (void)layoutSubviews {
@@ -47,7 +52,7 @@
             index++;
         }
     }
-    self.publishButton.center = CGPointMake(self.bounds.size.width * 0.5, self.bounds.size.height * 0.5);
+    self.publishButton.center = CGPointMake(self.bounds.size.width * 0.5, 10);
 }
 
 @end

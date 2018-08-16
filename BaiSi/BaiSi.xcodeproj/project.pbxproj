@@ -12,6 +12,7 @@
 		04343A33211969330097752E /* UIBarButtonItem+LZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04343A32211969330097752E /* UIBarButtonItem+LZExtension.m */; };
 		04364F80210EA49C00D9F6CF /* LZTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04364F7F210EA49C00D9F6CF /* LZTabBarController.m */; };
 		04364F83210EDBBA00D9F6CF /* LZTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 04364F82210EDBBA00D9F6CF /* LZTabBar.m */; };
+		04424A862125075D001CD1E4 /* LZHomeHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04424A852125075D001CD1E4 /* LZHomeHeaderView.m */; };
 		045823C5210FF6F900486383 /* UIView+LZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 045823C4210FF6F900486383 /* UIView+LZExtension.m */; };
 		04FC0D20210B003B00CD2A23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC0D1F210B003B00CD2A23 /* AppDelegate.m */; };
 		04FC0D38210B004500CD2A23 /* BaiSiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC0D37210B004500CD2A23 /* BaiSiTests.m */; };
@@ -45,7 +46,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04334330211156B7009511DE /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		043343312111847A009511DE /* LZAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZAlertView.h; sourceTree = "<group>"; };
 		043343322111847A009511DE /* LZAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZAlertView.m; sourceTree = "<group>"; };
 		04343A2E21192A2C0097752E /* LZNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZNavigationController.h; sourceTree = "<group>"; };
@@ -56,8 +56,13 @@
 		04364F7F210EA49C00D9F6CF /* LZTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZTabBarController.m; sourceTree = "<group>"; };
 		04364F81210EDBBA00D9F6CF /* LZTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZTabBar.h; sourceTree = "<group>"; };
 		04364F82210EDBBA00D9F6CF /* LZTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZTabBar.m; sourceTree = "<group>"; };
+		04424A842125075D001CD1E4 /* LZHomeHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZHomeHeaderView.h; sourceTree = "<group>"; };
+		04424A852125075D001CD1E4 /* LZHomeHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZHomeHeaderView.m; sourceTree = "<group>"; };
 		045823C3210FF6F900486383 /* UIView+LZExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+LZExtension.h"; sourceTree = "<group>"; };
 		045823C4210FF6F900486383 /* UIView+LZExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+LZExtension.m"; sourceTree = "<group>"; };
+		0475D15A212404B2007ACEF7 /* BaseMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseMacro.h; sourceTree = "<group>"; };
+		0475D15B212404B2007ACEF7 /* CommonMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMacro.h; sourceTree = "<group>"; };
+		0475D15C21240656007ACEF7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		04FC0D1B210B003B00CD2A23 /* BaiSi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaiSi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FC0D1E210B003B00CD2A23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04FC0D1F210B003B00CD2A23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -154,6 +159,16 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		0475D159212404B2007ACEF7 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				0475D15A212404B2007ACEF7 /* BaseMacro.h */,
+				0475D15B212404B2007ACEF7 /* CommonMacro.h */,
+			);
+			name = Macro;
+			path = BaiSi/Apps/Common/Macro;
+			sourceTree = SOURCE_ROOT;
+		};
 		04FC0D12210B003B00CD2A23 = {
 			isa = PBXGroup;
 			children = (
@@ -181,6 +196,7 @@
 			children = (
 				04FC0D1E210B003B00CD2A23 /* AppDelegate.h */,
 				04FC0D1F210B003B00CD2A23 /* AppDelegate.m */,
+				0475D15C21240656007ACEF7 /* PrefixHeader.pch */,
 				04FC0D59210B030E00CD2A23 /* Apps */,
 				04FC0D50210B030E00CD2A23 /* Resources */,
 				04FC0D56210B030E00CD2A23 /* Supporting Files */,
@@ -212,7 +228,6 @@
 			children = (
 				04FC0D51210B030E00CD2A23 /* Assets.xcassets */,
 				04FC0D52210B030E00CD2A23 /* LaunchScreen.storyboard */,
-				04334330211156B7009511DE /* PrefixHeader.pch */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -242,6 +257,7 @@
 		04FC0D5A210B030E00CD2A23 /* Essense */ = {
 			isa = PBXGroup;
 			children = (
+				0475D159212404B2007ACEF7 /* Macro */,
 				04FC0D5B210B030E00CD2A23 /* Controller */,
 				04FC0D5C210B030E00CD2A23 /* Model */,
 				04FC0D5D210B030E00CD2A23 /* View */,
@@ -268,6 +284,8 @@
 		04FC0D5D210B030E00CD2A23 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				04424A842125075D001CD1E4 /* LZHomeHeaderView.h */,
+				04424A852125075D001CD1E4 /* LZHomeHeaderView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -568,6 +586,7 @@
 				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SDCycleScrollView/SDCycleScrollView.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -576,6 +595,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDCycleScrollView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -614,6 +634,7 @@
 				04FC0D7C210B08C300CD2A23 /* LZMeViewController.m in Sources */,
 				04FC0D76210B08A300CD2A23 /* LZEssenceViewController.m in Sources */,
 				04343A3021192A2C0097752E /* LZNavigationController.m in Sources */,
+				04424A862125075D001CD1E4 /* LZHomeHeaderView.m in Sources */,
 				04343A33211969330097752E /* UIBarButtonItem+LZExtension.m in Sources */,
 				04364F83210EDBBA00D9F6CF /* LZTabBar.m in Sources */,
 				04FC0D20210B003B00CD2A23 /* AppDelegate.m in Sources */,
@@ -784,7 +805,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4ZFVDL43ZL;
-				GCC_PREFIX_HEADER = BaiSi/Resources/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = BaiSi/PrefixHeader.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/BaiSi/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -804,7 +825,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4ZFVDL43ZL;
-				GCC_PREFIX_HEADER = BaiSi/Resources/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = BaiSi/PrefixHeader.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/BaiSi/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (

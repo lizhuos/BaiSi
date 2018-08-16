@@ -13,6 +13,7 @@
 #import "LZFollowViewController.h"
 #import "LZPublishViewController.h"
 #import "LZTabBar.h"
+#import "LZNavigationController.h"
 
 @interface LZTabBarController ()
 
@@ -49,32 +50,23 @@
 }
 
 - (void)setupViewController {
-    LZEssenceViewController *essenceVC = [[LZEssenceViewController alloc] init];
-    [self setupTabBarItem:essenceVC tabBarItemTitle:@"精华" imageName:@"tabBar_essence_icon" selectedImage:@"tabBar_essence_click_icon"];
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:essenceVC];
-    [self addChildViewController:nav];
+    [self setupChildViewController:[[LZEssenceViewController alloc] init] tabBarItemTitle:@"鸡笼商城" imageName:@"tabBar_essence_icon" selectedImage:@"tabBar_essence_click_icon"];
+
+    [self setupChildViewController:[[LZNewViewController alloc] init] tabBarItemTitle:@"商品分类" imageName:@"tabBar_new_icon" selectedImage:@"tabBar_new_click_icon"];
+
+    [self setupChildViewController:[[LZFollowViewController alloc] init] tabBarItemTitle:@"企业信息" imageName:@"tabBar_friendTrends_icon" selectedImage:@"tabBar_friendTrends_click_icon"];
     
-    LZNewViewController *newVC = [[LZNewViewController alloc] init];
-    [self setupTabBarItem:newVC tabBarItemTitle:@"新帖" imageName:@"tabBar_new_icon" selectedImage:@"tabBar_new_click_icon"];
-    UINavigationController *nav1 = [[UINavigationController alloc] initWithRootViewController:newVC];
-    [self addChildViewController:nav1];
-    
-    LZFollowViewController *followVC = [[LZFollowViewController alloc] init];
-    [self setupTabBarItem:followVC tabBarItemTitle:@"关注" imageName:@"tabBar_friendTrends_icon" selectedImage:@"tabBar_friendTrends_click_icon"];
-    UINavigationController *nav2 = [[UINavigationController alloc] initWithRootViewController:followVC];
-    [self addChildViewController:nav2];
-    
-    LZMeViewController *meVC = [[LZMeViewController alloc] init];
-    [self setupTabBarItem:meVC tabBarItemTitle:@"我" imageName:@"tabBar_me_icon" selectedImage:@"tabBar_me_click_icon"];
-    UINavigationController *nav3 = [[UINavigationController alloc] initWithRootViewController:meVC];
-    [self addChildViewController:nav3];
+    [self setupChildViewController:[[LZMeViewController alloc] init] tabBarItemTitle:@"个人中心" imageName:@"tabBar_me_icon" selectedImage:@"tabBar_me_click_icon"];
 }
 
-- (void)setupTabBarItem:(UIViewController *)viewController tabBarItemTitle:(NSString *)tabBarItemTitle imageName:(NSString *)imageName selectedImage:(NSString *)selectedImage {
+- (void)setupChildViewController:(UIViewController *)viewController tabBarItemTitle:(NSString *)tabBarItemTitle imageName:(NSString *)imageName selectedImage:(NSString *)selectedImage {
+    LZNavigationController *navigationController = [[LZNavigationController alloc] initWithRootViewController:viewController];
+    [self addChildViewController:navigationController];
     
-    viewController.tabBarItem.title = tabBarItemTitle;
-    viewController.tabBarItem.image = [UIImage imageNamed:imageName];
-    viewController.tabBarItem.selectedImage = [UIImage imageNamed:selectedImage];
+    // 设置子控制器的tabBarItem
+    navigationController.tabBarItem.title = tabBarItemTitle;
+    navigationController.tabBarItem.image = [UIImage imageNamed:imageName];
+    navigationController.tabBarItem.selectedImage = [UIImage imageNamed:selectedImage];
 }
 
 - (void)setupTabBar {

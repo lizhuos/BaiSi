@@ -10,7 +10,8 @@
 
 @interface UIBarButtonItem (LZExtension)
 
-+ (instancetype)itemWithImage:(NSString *)image highImage:(NSString *)highImage addTarget:(nullable id)target action:(SEL)action;
++ (instancetype)itemWithImage:(NSString *)image highImage:(NSString *)highImage target:(nullable id)target action:(SEL)action;
 + (instancetype)itemWithImage:(NSString *)image selImage:(NSString *)selImage targer:(id)target action:(SEL)action;
++ (instancetype)backItemWithImage:(NSString *)image highImage:(NSString *)highImage target:(nullable id)target action:(SEL)action title:(NSString *)title;
 
 @end
